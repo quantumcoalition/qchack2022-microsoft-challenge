@@ -7,23 +7,23 @@ We are excited to offer this challenge to QC Hack 2022 participants, and we are 
 This challenge consists of two parts. In part 1, you will explore simple quantum programming tasks and submitting quantum jobs using Azure Quantum. In part 2, you will use a quantum computer to implement and explore the solution to a problem of your choice!
 
 ### Part 1: Warmup tasks
-Part 1 of this challenge can be found in the folder [Part1](./Part1). It contains three independent tasks that help you get familiar with the various tools you’ll need in the main part of the challenge.
+Part 1 of this challenge can be found in the folder [Part1](./Part1). It contains three independent tasks that help you get familiar with the various tools youâ€™ll need in the main part of the challenge.
 
-* [Task 1. Implementing a quantum oracle (Q#)](./Part1/Task1_QuantumOracleQsharp.ipynb) – 1 point
-* [Task 2. Submitting Azure Quantum jobs from Q# Jupyter Notebooks (Q# + IonQ simulator)](./Part1/Task2_DeutschAlgorithmQsharpIonQ.ipynb) – 1 point
-* [Task 3. Submitting Azure Quantum jobs from Python Jupyter Notebooks (Qiskit + Quantinuum emulator)](./Part1/Task3_QrngQiskitQuantinuum.ipynb) – 1 point
+* [Task 1. Implementing a quantum oracle (Q#)](./Part1/Task1_QuantumOracleQsharp.ipynb) â€“ 1 point
+* [Task 2. Submitting Azure Quantum jobs from Q# Jupyter Notebooks (Q# + IonQ simulator)](./Part1/Task2_DeutschAlgorithmQsharpIonQ.ipynb) â€“ 1 point
+* [Task 3. Submitting Azure Quantum jobs from Python Jupyter Notebooks (Qiskit + Quantinuum emulator)](./Part1/Task3_QrngQiskitQuantinuum.ipynb) â€“ 1 point
 
 ### Part 2: Free-form project
 
-In part 2, you will come up with a problem you’d like to explore using a quantum computer, implement the solution in a quantum programming language, and explore its behavior on a variety of simulator and hardware targets in Azure Quantum.
+In part 2, you will come up with a problem youâ€™d like to explore using a quantum computer, implement the solution in a quantum programming language, and explore its behavior on a variety of simulator and hardware targets in Azure Quantum.
 You can develop your project using any language supported by Azure Quantum: **Q#, Qiskit, or Cirq**.
-*You’ll be able to run your code on a real ion trap quantum computer provided by IonQ, as well as on an accurate simulator of the quantum computer H1-2 provided by Quantinuum and a noiseless cloud simulator by IonQ. Remember that current devices are still NISQ, and noise can overtake the computation really fast. We recommend you experiment with circuits that use under a few dozen two-qubit gates.*
+*Youâ€™ll be able to run your code on a real ion trap quantum computer provided by IonQ, as well as on an accurate simulator of the quantum computer H1-2 provided by Quantinuum and a noiseless cloud simulator by IonQ. Remember that current devices are still NISQ, and noise can overtake the computation really fast. We recommend you experiment with circuits that use under a few dozen two-qubit gates.*
 
 Here are a few project ideas to get you started:
 
 * Pick an algorithm and compare algorithm results when running on a noiseless simulation vs a noisy simulation vs a QPU.
 * Show how to tweak a general-purpose algorithm implementation that is in general too complicated to run on a QPU (for example, one that uses library routines) to simplify it for a specific problem and run it on QPU. What are the helpful tricks here?
-* In the [Introduction to QDK and Azure Quantum](https://www.twitch.tv/videos/1447170150) workshop you saw that you can run Grover’s search for a simple problem with search space of size 4. What is the largest problem instance for your problem which you can solve on a quantum computer and get the correct result without it being overtaken by the noise?
+* In the [Introduction to QDK and Azure Quantum](https://www.twitch.tv/videos/1447170150) workshop you saw that you can run Groverâ€™s search for a simple problem with search space of size 4. What is the largest problem instance for your problem which you can solve on a quantum computer and get the correct result without it being overtaken by the noise?
 * If you want to use Variational Algorithms for your project (i.e., algorithms that use a classical loop to generate quantum circuits parametrically, such as VQE or QAOA), please keep in mind that this class of programs can take a long time to run, which might not be feasible within the time allocated to the Hackathon. We suggest developing and running your program on a local simulator first, and only running the final iteration on hardware.
 
 Your project for part 2:
@@ -37,7 +37,7 @@ Since the project repository is the main deliverable for your project (there are
 
 ### Using Azure Quantum
 
-You should have received an invite to join quantum workspace [aq-hackathon-qchack2022](https://portal.azure.com/#@thequantumdemooutlook.onmicrosoft.com/resource/subscriptions/b1d7f7f8-743f-458e-b3a0-3e09734d716d/resourceGroups/aq-hackathons/providers/Microsoft.Quantum/Workspaces/aq-hackathon-qchack2022/overview). Join it, and use that workspace’s information to connect to Azure from the environment you’re using to work with the QDK:
+You should have received an invite to join quantum workspace [qchack-2022-b - Microsoft Azure](https://portal.azure.com/?quickstart=True#@achocronme.onmicrosoft.com/resource/subscriptions/[â€¦]/Microsoft.Quantum/Workspaces/qchack-2022-b/overview). Join it, and use that workspaceâ€™s information to connect to Azure from the environment youâ€™re using to work with the QDK:
 
 * Subscription ID: b1d7f7f8-743f-458e-b3a0-3e09734d716d
 * Resource group: aq-hackathons
@@ -88,7 +88,7 @@ Your repository has to be made public at the time of the Hackathon end for us to
 5.	If your project for part 2 includes a blog post about your project, publish it shortly after the Hackathon end and add a link to it to your GitHub repository.
 
 ## Judging
-Part 1 tasks will be evaluated based on the correctness of your solution: for task 1, we’ll check that your solution is correct by running the testing harness for it (provided in the same Jupyter Notebook file as the task), and for tasks 2 and 3, we’ll check that the outputs of each code cell in the notebook match the typical outputs of job submission and results retrieval. 
+Part 1 tasks will be evaluated based on the correctness of your solution: for task 1, weâ€™ll check that your solution is correct by running the testing harness for it (provided in the same Jupyter Notebook file as the task), and for tasks 2 and 3, weâ€™ll check that the outputs of each code cell in the notebook match the typical outputs of job submission and results retrieval. 
 
 The judging for part 2 of the challenge will be more flexible than for part 1. Since there is no single "right" solution, we'll be evaluating the projects based on several criteria. Here is the list of criteria and example questions we'll consider when evaluating the projects:
 
